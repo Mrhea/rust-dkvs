@@ -1,4 +1,4 @@
-use actix-web::{web, App, HttpResponse, HttpServer, Responder};
+use actix_web::{web, App, HttpResponse, HttpServer, Responder};
 
 async fn getHello() -> impl Responder {
     HttpResponse::Ok().body("Hello, world!")
