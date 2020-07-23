@@ -27,3 +27,6 @@
 //     .run()
 //     .await
 // }
+fn main() {
+    println!("Hello again");
+}
